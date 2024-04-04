@@ -1,15 +1,15 @@
-import { toast } from "react-hot-toast";
 import Spinner from "../../ui/Spinner";
 import CabinRow from "./CabinRow";
 import { useCabins } from "./useCabins";
 import Table from "../../ui/Table";
 import Menus from "../../ui/Menus";
 import { useSearchParams } from "react-router-dom";
+import Empty from "../../ui/Empty";
 
 export default function CabinTable() {
   const { isLoading, cabins, error } = useCabins();
   const [searchParams] = useSearchParams();
-  if (error) toast.error("There was an error while loading cabins.");
+  if (error) <Empty resource="Cabins" />;
   if (isLoading) return <Spinner />;
 
   // filter

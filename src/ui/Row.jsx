@@ -3,6 +3,9 @@ import styled, { css } from "styled-components";
 const Row = styled.div`
   display: flex;
 
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
   ${(props) =>
     props.type === "horizontal" &&
     css`

@@ -1,5 +1,7 @@
 # Finnish Luxury Cabin business management System.
-See it life! --> https://mokki-paradise.netlify.app/
+the application is not intended for Mobile devices!!!!
+
+See it live! --> https://mokki-paradise.netlify.app/
 the application is protected, use these test credentials :
 email : yanen16089@adstam.com
 password : Password1234

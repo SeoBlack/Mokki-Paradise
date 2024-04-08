@@ -13,8 +13,6 @@ import { useBooking } from "./useBooking";
 import Spinner from "../../ui/Spinner";
 import Empty from "../../ui/Empty";
 import { useNavigate } from "react-router-dom";
-import { HiArrowUpOnSquare } from "react-icons/hi2";
-import Menus from "../../ui/Menus";
 import useCheckout from "../check-in-out/useCheckout";
 import Modal from "../../ui/Modal";
 import ConfirmDelete from "../../ui/ConfirmDelete";
@@ -28,7 +26,7 @@ const HeadingGroup = styled.div`
 
 function BookingDetail() {
   const { booking, isLoading, error } = useBooking();
-  const { checkout, isCheckingOut } = useCheckout();
+  const { checkout } = useCheckout();
   const { deleteBooking, isDeletingBooking } = useDeleteBooking();
 
   const navigate = useNavigate();

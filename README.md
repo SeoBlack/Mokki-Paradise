@@ -1,4 +1,11 @@
-# React + Vite
+# Finnish Luxury Cabin business management System.
+See it life! --> https://mokki-paradise.netlify.app/
+the application is protected, use these test credentials :
+email : yanen16089@adstam.com
+password : Password1234
+
+this account has the right to only view the data!! 
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

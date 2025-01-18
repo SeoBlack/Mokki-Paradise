@@ -1,3 +1,5 @@
+#EDIT: Supabase backend has been deleted due to long time inactivity, live version will not work :(, you can still view the source code :=) 
+
 # Finnish Luxury Cabin business management System.
 the application is not intended for Mobile devices!!!!
 

@@ -1,4 +1,7 @@
 #EDIT: Supabase backend has been deleted due to long time inactivity, live version will not work :(, you can still view the source code :=) 
+this is what it used to look like: 
+
+![project](https://github.com/user-attachments/assets/36e9dfd3-96cb-42c9-a2b4-2de8e170c0b3)
 
 # Finnish Luxury Cabin business management System.
 the application is not intended for Mobile devices!!!!
